@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Fedya loves Polina</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="flash"></div>
+
+<!-- ЭКРАН ВХОДА -->
+<div id="lockScreen" class="lock-screen">
+    <div class="lock-box">
+        <h1>Этот мир - только для тебя</h1>
+        <p>Введи дату, с которой началось "мы"</p>
+        <input type="password" id="passwordInput" placeholder="••••••••">
+        <button id="enterBtn">Открыть</button>
+    </div>
+</div>
+
+<div class="overlay"></div>
+
+<main class="scene hidden" id="site">
+    <h1 class="title">
+        <span class="white">Федя</span>
+        <span class="heart" id="mainHeart">♥</span>
+        <span class="black">Полина</span>
+    </h1>
+
+    <p class="intro" id="quote">
+    ...
+    </p>
+
+
+    <div class="timer">
+        <p>Мы вместе уже</p>
+        <h2 id="timeTogether">...</h2>
+    </div>
+
+    <button class="magic-btn">Коснись магии</button>
+
+    <div class="pets"></div>
+
+    <div class="final hidden">
+        <p>
+            С 12 июня 2025 года,<br>
+            4:00 утра — и навсегда 🖤🤍
+        </p>
+    </div>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
